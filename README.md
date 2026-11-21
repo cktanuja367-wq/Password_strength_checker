@@ -1,7 +1,8 @@
 # Password_strength_checker
-i created a web&lt;&lt; 
+i created a simple web&lt;&lt; 
 
 # Password Strength Checker
+
 A project I made that takes a password and tells you if it is weak, medium or strong.
 
 ## What I did
@@ -23,14 +24,22 @@ It checks a password and says if it is weak, medium or strong, so people can pic
 - It only judges the password text. It cannot know if a password was already leaked or reused
 - Some strong passwords can be displayed as medium, and a password with many words in it can sometimes be displayed as strong
 
+## Future Improvements
+I plan to add a cartoon character that shows the password strength. This will make the app more interesting and easier to understand.
+
 ## Dataset
 I used this Kaggle dataset: https://www.kaggle.com/datasets/bhavikbb/password-strength-classifier-dataset
 
 I did not upload it here. To run the project, download it and save it as dataset.csv inside a folder named data.
 
 ## How to run
+Run these two commands in the terminal:
 pip install -r requirements.txt
 streamlit run web_public.py
+The web page opens in your browser.
+
+## Demo Video
+If you are interested in seeing how it looks, watch the [demo video](https://drive.google.com/file/d/1L7fKbxql58pvOb7Z0yevJ1q7nPndTLJe/view?usp=drivesdk).
 
 ## Files
 - password_checker.ipynb: the notebook
@@ -42,4 +51,7 @@ streamlit run web_public.py
 - How to look at a model's mistakes (error analysis) instead of only its accuracy
 - How to build a simple interface with Streamlit
 - I thought building a website was difficult, but I learned how to build one by myself by coding with the help of AI tools
-- I learned that with an idea we can build anything.
+- I learned that with an idea we can build anything
+
+## Author
+Tanuja C K
