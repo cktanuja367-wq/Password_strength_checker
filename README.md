@@ -23,6 +23,7 @@ It checks a password and says if it is weak, medium or strong, so people can pic
 - I tested it on a small set of made-up passwords, so the results are not a full measure of accuracy
 - It only judges the password text. It cannot know if a password was already leaked or reused
 - Some strong passwords can be displayed as medium, and a password with many words in it can sometimes be displayed as strong
+- It won't save a previously checked password when you login again.
 
 ## Future Improvements
 I plan to add a cartoon character that shows the password strength. This will make the app more interesting and easier to understand.
