@@ -34,8 +34,8 @@ I did not upload it here. To run the project, download it and save it as dataset
 
 ## How to run
 Run these two commands in the terminal:
-pip install -r requirements.txt
-streamlit run web_public.py
+pip install -r requirements.txt'
+streamlit run web_public.py then
 The web page opens in your browser.
 
 ## Demo Video
